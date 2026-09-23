@@ -26,7 +26,7 @@ class Paths
      * This must contain the name of your "system" folder. Include
      * the path if the folder is not in the same directory as this file.
      */
-    public string $systemDirectory = __DIR__ . '/../../vendor/codeigniter4/framework/system';
+    public string $systemDirectory = __DIR__ . '/../vendor/codeigniter4/framework/system';
 
     /**
      * ---------------------------------------------------------------
@@ -53,7 +53,7 @@ class Paths
      * for maximum security, keeping it out of the app and/or
      * system directories.
      */
-    public string $writableDirectory = __DIR__ . '/../../writable';
+    public string $writableDirectory = __DIR__ . '/../writable';
 
     /**
      * ---------------------------------------------------------------
@@ -86,5 +86,5 @@ class Paths
      * Please consider security implications when changing this
      * value - the directory should not be publicly accessible.
      */
-    public string $envDirectory = __DIR__ . '/../../';
+    public string $envDirectory = __DIR__ . '/../';
 }
