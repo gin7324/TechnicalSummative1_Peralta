@@ -43,3 +43,7 @@ The CSS style was taken from my previous coding projects i just modified it to f
   **php spark serve**
 
 Then open in browser using the localhost that will be provided for you
+
+**UPDATE**
+Project now hosted at infinityfree: https://kynaz.gamer.free/
+
